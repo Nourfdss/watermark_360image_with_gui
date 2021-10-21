@@ -199,7 +199,7 @@ file_list_column = [
 ]
 
 image_viewer_column = [
-    [sg.Text("Face Bluring Software")], [sg.Button("start"), sg.Button("Exit")],
+    [sg.Text("Face Blurring Software")], [sg.Button("start"), sg.Button("Exit")],
 ]
 
 image_edit_values = [
@@ -217,9 +217,11 @@ layout = [
     ]
 ]
 
-window = sg.Window("FaceBluring By Nour", layout)
+window = sg.Window("Face Blurring By Nour", layout)
+
 
 def main():
+
     folder = ""
 
     while True:
